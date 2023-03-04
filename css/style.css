@@ -11,18 +11,12 @@ button{
     border: none;
     transition: .2s;
 }
-button:hover{
-    font-size: 18px;
-    background:transparent;
-    color: #02897A;
-    border: solid 1px #02897A ;
-    transform: translateY(-3px);
-    -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
-    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
-}
+
 a{
     text-decoration: none;
+}
+ion-icon{
+    cursor: pointer;
 }
 body a:hover{
     color: #099cdc;
@@ -199,8 +193,7 @@ body.dark p {
 /*///////*/
 
 .work{
-    margin: 60px 0;
-    margin-right: 33px;
+    margin: 60px 33px 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,6 +228,7 @@ body.dark p {
     height: 53px;
     width: 175px;
 color: white;
+    font-size: 16px;
 }
 .work button:hover{
     font-size: 18px;
@@ -255,7 +249,7 @@ color: white;
     color: #02897A;
 }
 .work img{
-    margin-left: 30px;
+    margin-left: 90px;
 }
 
 /*///*/
@@ -496,6 +490,8 @@ color: white;
     justify-content: center;
 }
 .Quic button{
+    border: solid 1px #1E5653FF;
+
     background: #02897A;
     border-radius: 4px;
     font-weight: 700;

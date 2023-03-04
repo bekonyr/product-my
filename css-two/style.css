@@ -5,6 +5,9 @@
 a{
     text-decoration: none;
 }
+ion-icon{
+    cursor: pointer;
+}
 body a:hover{
     color: #099cdc;
     text-decoration-line: underline ;
@@ -18,16 +21,7 @@ button{
     cursor: pointer;
     transition: .2s;
 }
-button:hover{
-    font-size: 18px;
-    background:transparent;
-    color: #02897A;
-    border: solid 1px #02897A ;
-    transform: translateY(-3px);
-    -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 0  5px 10px 2px rgba(34, 60, 80, 0.2);
-    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
-}
+
 body{
     font-family: 'Poppins',sans-serif;
 }
@@ -310,6 +304,7 @@ body.dark p {
     margin: 10px 0;
 }
 
+
 .price-blocks {
     display: flex;
     justify-content: space-between;
@@ -348,6 +343,17 @@ body.dark p {
     background: #02897A;
     border-radius: 8px;
     margin-top: 32px;
+}
+.enter  button:hover{
+    -webkit-box-shadow: 4px 16px 28px -1px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 4px 16px 28px -1px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 4px 16px 28px -1px rgba(0, 0, 0, 0.2) inset;
+    transform: translateY(-5px);
+    border-radius:8px ;
+    color: #1e5653;
+    background: rgb(255, 255, 255);
+    border: solid 1px #1E5653FF;
+    font-size: 20px;
 }
 
 /*////*/
