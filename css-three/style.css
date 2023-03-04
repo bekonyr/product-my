@@ -428,10 +428,6 @@ body.dark p {
 
 /*//////?*/
 
-.join{
-    padding: 60px 0;
-
-}
 .join-block{
     width: 968px;
     height: 345px;
@@ -439,7 +435,7 @@ body.dark p {
     border-radius: 32px;
     display: flex;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 95px;
 }
 .join-block-text h1{
     width: 510px;
@@ -458,7 +454,7 @@ body.dark p {
     color: #02897A;
     font-weight: 600;
     font-size: 20px;
-    margin: 82px 0 0 84px;
+    margin: 120px 0 0 50px;
     transition: .2s;
 }
 .join-block-text button:hover{
@@ -535,6 +531,8 @@ body.dark p {
     margin-top: 20px;
 }
 .know input{
+    padding: 0 0 0 15px;
+    font-size: 20px;
     height: 48px;
     width: 325px;
     border-radius: 4px;
