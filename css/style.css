@@ -1004,6 +1004,7 @@ text-align: center;
     margin-top: 20px;
 }
 .know input{
+    outline: none;
     padding: 0 0 0 15px;
     font-size: 20px;
     height: 48px;
@@ -1031,7 +1032,6 @@ text-align: center;
     box-shadow: 4px 16px 28px -1px rgba(0, 0, 0, 0.2) inset;
     transform: translateY(-5px);
     border-radius:8px ;
-    border: solid 2px white;
     color: #1e5653;
     background: rgb(255, 255, 255);
     border: solid 1px #1E5653FF;

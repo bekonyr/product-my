@@ -215,6 +215,7 @@ body.dark p {
 }
 
 .great-text-block input{
+    outline: none;
     width: 469.45px;
     height: 66px;
     border: 1px solid #EAEAEA;
@@ -394,6 +395,7 @@ body.dark p {
     text-align: center;
 }
 .inpu input{
+    outline: none;
     box-sizing: border-box;
     padding: 19px 20px;
     width: 768px;
@@ -404,6 +406,8 @@ body.dark p {
     margin-bottom: 45px;
 }
 .inpu textarea{
+    color: #000000;
+    outline: none;
     padding: 15px 15px 15px 15px;
     font-size: 15px;
     box-sizing: border-box;
@@ -501,6 +505,7 @@ body.dark p {
     margin-top: 20px;
 }
 .know input{
+    outline: none;
     padding: 0 0 0 15px;
     font-size: 20px;
     height: 48px;

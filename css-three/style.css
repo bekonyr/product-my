@@ -536,6 +536,7 @@ body.dark p {
     margin-top: 20px;
 }
 .know input{
+    outline: none;
     padding: 0 0 0 15px;
     font-size: 20px;
     height: 48px;
