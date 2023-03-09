@@ -11,16 +11,7 @@ button{
     border: none;
     transition: .2s;
 }
-/*button:hover{*/
-/*    font-size: 18px;*/
-/*    background:transparent;*/
-/*    color: #02897A;*/
-/*    border: solid 1px #02897A ;*/
-/*    transform: translateY(-3px);*/
-/*    -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);*/
-/*    -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);*/
-/*    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);*/
-/*}*/
+
 ion-icon{
     cursor: pointer;
 }

@@ -11,12 +11,14 @@
           rel="stylesheet">
     <link rel="icon" href="./img/header-logo.svg">
     <link rel="stylesheet" href="./css/style.css">
+
     <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
 
     <title>MyProduct</title>
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
 <!--header-start-->
@@ -42,6 +44,22 @@
                 <ion-icon id="theme" name="contrast-outline"></ion-icon>
             </div>
 
+
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#">Product</a></li>
+                    <li><a class="menu__item" href="#">Customers</a></li>
+                    <li><a class="menu__item" href="#">Pricing</a></li>
+                    <li><a class="menu__item" href="#">Resources</a></li>
+                    <button class="header-btn-one">Sign In</button>
+                    <button class="header-btn-two"> Sign Up</button>
+                    <ion-icon id="theme" name="contrast-outline"></ion-icon>                </ul>
+            </div>
         </div>
     </div>
 </header>
@@ -126,7 +144,9 @@
                 </p>
             </div>
         </div>
-        <button>SIGN UP NOW</button>
+        <center>
+            <button>SIGN UP NOW</button>
+        </center>
     </div>
 </section>
 
@@ -243,10 +263,12 @@
             <h1>
                 Quick & Easy Process
             </h1>
-            <p>
-                Do you require some help for your project: Conception workshop, <br>
-                prototyping, marketing strategy, landing page, Ux/UI?
-            </p>
+           <center>
+               <p>
+                   Do you require some help for your project: Conception workshop, <br>
+                   prototyping, marketing strategy, landing page, Ux/UI?
+               </p>
+           </center>
             <div class="Quic-bloc">
                 <div class="Quic-blok-on">
                     <div class="Quic-blok-one">
@@ -291,8 +313,10 @@
 
                 </div>
             </div>
-            <button>Contact our expert</button>
+<center>
+    <button>Contact our expert</button>
 
+</center>
         </div>
     </div>
 </section>
@@ -519,15 +543,17 @@
 <section id="join">
     <div class="container">
         <div class="join">
-            <div class="join-block">
-                <div class="join-block-text">
-                    <h1>
-                        Join 100 Compannies who boost their business with <br> Product
-                    </h1>
-                    <button>Get This</button>
-                </div>
-                <img src="./img/screen.png" alt="img">
-            </div>
+<center>
+    <div class="join-block">
+        <div class="join-block-text">
+            <h1>
+                Join 100 Compannies who boost their business with <br> Product
+            </h1>
+            <button>Get This</button>
+        </div>
+        <img src="./img/screen.png" alt="img">
+    </div>
+</center>
         </div>
     </div>
 </section>
