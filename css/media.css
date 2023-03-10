@@ -4841,7 +4841,7 @@ flex-wrap: wrap;
     padding: 80px 0;
     list-style: none;
     background-color: #ECEFF1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
     transition-duration: .25s;
 }
 
@@ -4857,7 +4857,4 @@ flex-wrap: wrap;
 }
 .menu__item:hover {
     background-color: #CFD8DC;
-}
-@media (max-width: 786px) {
-
 }
